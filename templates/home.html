@@ -20,11 +20,15 @@
     <h2 class="text-center">Tentang Vicky</h2>
     <p class="lead">Saya adalah orang yang baru mempelajari flask untuk membuat web , ya gitu lah.
     Belajar python full eeehh ternyata harus belajar HTML dan CSS dan lain lain hmm</p>
-    <h2 class="text-center mt-2 mb-4">Bisanya apa</h2>
-    <p>check dimana ,, ya digithub laaa</p>
+    <h2 class="text-center mt-2 mb-4">Vicky {{company_name}} Job</h2>
+      <div>
+      {% for job in jobs %}
+        {% include 'jobitem.html' %}
+      {% endfor %}
+      </div>
     <div class="text-center">
     <button class="btn btn-outline-success">Kontak</button>
-        <p class="mt-4">Copyright 2k24,</p>
+        <p class="mt-4">Copyright 2k24, freeCodeCamp.org</p>
     </div>
     </div>
   </body>
