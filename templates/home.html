@@ -2,49 +2,30 @@
 <html>
   <head>
     <title>Vicky Try flask</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-      h1 {
-        font-size: 80px;
-        font-family: Roboto;
-        font-weight: normal;
-        color: rgb(0, 0, 255);
-        text-align:center;
-      }
       #banner {
-        width: 100%;
         height: 360px;
-        object-fit: cover
-      }
-      h2 {
-        font-family: Roboto;
-        font-size: 32px;
-        color: rgb(100, 100, 100);
-        text-align:center;
-        font-weight: center;
-      }
-      .bodytext {
-        font-family: Roboto;
-        color: rgb(80, 80, 80);
-      }
-      #container {
-        max-width: 720px;
-        margin: 0 auto 0 auto;
+        width: 100%;
+        object-fit: cover;
       }
     </style>
   </head>
   <body>
-    <div id="container">
-    <h1>Vicky Prayudha</h1>
-    <img id="banner" src="https://26025ddc-b482-45fc-93e9-41172a9cd945-00-2r7tl5fkrp3y7.sisko.replit.dev/static/banner.jpeg">
-    <h2>Tentang Vicky</h2>
-    <p class="bodytext">Saya adalah orang yang baru mempelajari flask untuk membuat web , ya gitu lah.
+    <div class="container">
+    <h1 class="text-center mt-2 mb-4">Vicky Prayudha</h1>
+    <img class="img-fluid"id="banner" src="https://26025ddc-b482-45fc-93e9-41172a9cd945-00-2r7tl5fkrp3y7.sisko.replit.dev/static/banner.jpeg">
+    <h2 class="text-center">Tentang Vicky</h2>
+    <p class="lead">Saya adalah orang yang baru mempelajari flask untuk membuat web , ya gitu lah.
     Belajar python full eeehh ternyata harus belajar HTML dan CSS dan lain lain hmm</p>
-    <h2>Bisanya apa</h2>
-    <p class="bodytext">check dimana ,, ya digithub laaa</p>
-      <div style="text-align:center;">
-    <button>Kontak</button>
-        <p>Copyright 2k24,</p>
-      </div>
+    <h2 class="text-center mt-2 mb-4">Bisanya apa</h2>
+    <p>check dimana ,, ya digithub laaa</p>
+    <div class="text-center">
+    <button class="btn btn-outline-success">Kontak</button>
+        <p class="mt-4">Copyright 2k24,</p>
+    </div>
     </div>
   </body>
 </html>
